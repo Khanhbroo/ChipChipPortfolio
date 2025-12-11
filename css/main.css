@@ -1,0 +1,6 @@
+@import "theme.css";
+@import "./section/header.css";
+@import "./section/about-me.css";
+@import "./section/skills.css";
+@import "./section/experience.css";
+@import "./section/footer.css";
