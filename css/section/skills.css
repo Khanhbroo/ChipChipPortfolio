@@ -55,6 +55,14 @@
       margin-top: 8px;
       display: flex;
       gap: 12px;
+
+      &:nth-child(1) > div.icons_list {
+        animation: move-left 30s linear infinite;
+      }
+
+      &:nth-child(2) > div.icons_list {
+        animation: move-right 60s linear infinite;
+      }
     }
 
     & .icons_list {
