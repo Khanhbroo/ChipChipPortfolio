@@ -36,6 +36,10 @@
     max-width: 1024px;
   }
 
+  section {
+    margin: 80px 0px;
+  }
+
   /* Header */
   .header__container {
     flex-direction: column;
@@ -58,6 +62,16 @@
   .header__column--right {
     align-items: center;
     text-align: center;
+  }
+
+  /* Activities */
+  .activities__cards_container {
+    flex-direction: column;
+  }
+
+  .activities__cards_img {
+    width: 500px;
+    height: 500px;
   }
 }
 
@@ -90,6 +104,16 @@
       grid-column: span 1 !important;
       grid-row: span 1 !important;
     }
+  }
+
+  /* Activities */
+  .activities__cards_container {
+    flex-direction: column;
+  }
+
+  .activities__cards_img {
+    width: 284px;
+    height: 284px;
   }
 }
 
@@ -131,5 +155,10 @@
 
   .aboutMe__content_container {
     border-radius: 2rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 0px;
   }
 }

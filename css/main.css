@@ -2,7 +2,7 @@
 @import "./section/header.css";
 @import "./section/about-me.css";
 @import "./section/skills.css";
-@import "./section/experience.css";
+@import "./section/activities.css";
 @import "./section/footer.css";
 
 /* Import google font */
@@ -21,8 +21,24 @@
   font-size: normal;
 }
 
+body {
+  /* Background pattern */
+  background-color: var(--foreground-color);
+  background: repeating-linear-gradient(
+    45deg,
+    #cacbf02f,
+    #cbcce40e 2.5px,
+    #f4f4f515 2.5px,
+    #e5e5f73d 12.5px
+  );
+}
+
 a {
   text-decoration: none;
+}
+
+section {
+  margin: 120px 0px;
 }
 
 .container {
